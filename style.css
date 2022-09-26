@@ -13,27 +13,31 @@ span {
 nav h2 {
     padding: 2% 3%;
     background-color: rgb(255, 255, 255);
-    height: 2.5pc;
-    
 }
 .container-one {
     color: white;
     padding: 15% 3% 20% 3%;
-        height: 55vh;
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.521)), url(images/kenny-eliason-1-aA2Fadydc-unsplash.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.753)), url(images/kenny-eliason-1-aA2Fadydc-unsplash.jpg);
 }
 .head4-1 {
+    margin: 3% 0;
     border-radius: 5px;
     width: fit-content;
     background-color: black;
-    padding: 1% 3%;
+    padding: 1% 5%;
+    letter-spacing: 1px;
 }
 .head-1 {
     padding: 2% 0;
     line-height: 30px;
+    letter-spacing: 1px;
+}
+.p-1 {
+    padding: 3% 0;
+    letter-spacing: 1px;
 }
 .btn-2 {
     padding: 3% 12%;
@@ -41,7 +45,11 @@ nav h2 {
     border: none;
     border-radius: 5px;
     color: white;
-    margin-top: 2%;
+    margin-top: 5%;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 .container-two {
     padding: 10% 3%;
@@ -54,6 +62,9 @@ nav h2 {
     margin: 3% 0;
     padding: 5% 5%;
     border-radius: 5px;
+}
+.p-2 {
+    padding: 5% 0;
 }
 .container-3 {
     padding: 3% 3%;
@@ -68,6 +79,7 @@ nav h2 {
 }
 .img-2 {
     width: 100%;
+    clip-path: circle();
 }
 .container-4 {
     color: white;
@@ -90,25 +102,30 @@ nav h2 {
     border: none;
     border-radius: 5px;
     color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 .grid-main {
     display: flex;
     flex-direction: column;
     margin: 5% 0;
-
 }
 .head-5 {
+    padding: 3% 0;
     font-size: 1.5rem;
 }
 .grid {
+    cursor: pointer;
     background-color: rgba(0, 0, 139, 0.123);
     padding: 10% 5%;
     margin: 3% 0;
     border-radius: 5px;
 }
-.grid:hover {
+.grid:hover, .grid:focus {
     background-image: linear-gradient(to right, rgb(0, 0, 192), rgb(78, 78, 255), rgb(0, 0, 129));
-
+    transition: 2s;
 }
 .my-img-4 {
     padding: 10% 3%;
@@ -142,7 +159,10 @@ nav h2 {
     border: none;
     border-radius: 5px;
     color: white;
-
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 .head5-1 {
     font-size: 1rem;
@@ -157,7 +177,11 @@ nav h2 {
     padding: 10% 3% 30% 3%;
 }
 .container-child-6 {
+    padding: 5% 0;
     text-align: center;
+}
+.head-7 {
+    padding: 3% 0;
 }
 .container-7 {
     background-image: linear-gradient(to right, rgb(0, 0, 192), rgb(78, 78, 255), rgb(0, 0, 129));
@@ -165,7 +189,8 @@ nav h2 {
     border-radius: 5px;
     margin: 0 3%;
     position: absolute;
-    bottom: -238rem;
+    top: -25px;
+    width: 88%;
 }
 .btn-5 {
     margin: 3% 0;
@@ -175,13 +200,16 @@ nav h2 {
     border-radius: 5px;
     color: rgb(0, 0, 0);
     font-weight: 800;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 .head-8 {
     color: rgb(255, 255, 255);
-    line-height: 30px;
     font-size: 1.5rem;
 }
 .main-container {
+    position: relative;
     padding: 50% 3% 0 3%;
 }
 .head4-5 {
@@ -221,6 +249,10 @@ nav h2 {
     border: none;
     border-radius: 5px;
     color: white;
+    font-weight: 800;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 .main-container-2 {
     color: white;
@@ -266,6 +298,9 @@ nav h2 {
    border: 2px solid rgb(0, 4, 255); 
     background-color: transparent;
     color: white;
+    font-weight: 800;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 .main-container-3 {
@@ -282,6 +317,8 @@ nav h2 {
 }
 .img-8 {
     width: 50%;
+    transform: translateY(-60%);
+    border-radius: 5px;
 }
 .head-13 {
     line-height: 30px;
@@ -296,7 +333,10 @@ nav h2 {
     padding: 10% 5% 3% 5%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 5% 0;
+    margin: 15% 0;
+}
+.p-15 {
+    padding: 5% 0;
 }
 .main-container-4 {
     color: white;
@@ -312,12 +352,272 @@ nav h2 {
 }
 .ul-03 {
     margin-bottom: 5%;
-
+    list-style-type: none;
 }
 .ul-03 .li-03 {
     padding: 1% 0;
 }
 .p-16 {
     padding: 1% 0;
+}
+
+/* SCREEN SIZE FROM 1000PX ABOVE */
+
+@media (min-width: 1000px) {
+    .container-one {
+        padding: 10% 5%;
+    }
+    .head4-1 {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+    .head-1 {
+    padding: 2% 0;
+    font-size: 5rem;
+    line-height: 70px;
+    }
+    .p-1 {
+    padding: 0;
+    font-size: 1.2rem;
+    }
+    .btn-2 {
+        margin-top: 3%;
+        padding: 2% 8%;
+    }
+    .experience {
+        position: relative;
+    }
+    .container-two {
+        padding: 5% 5%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2%;
+        position: absolute;
+        top: -110px;
+    }
+    .p-2 {
+        padding: 5% 0;
+        font-size: 1.2rem;
+    }
+    .container-3 {
+        padding: 20% 5% 5% 5%;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2%;
+    }
+    .head4-2 {
+        font-size: 1.2rem;
+    }
+    .head-3 {
+        font-size: 4rem;
+        line-height: 70px;
+    }
+    .container-child-3 p {
+        font-size: 1.2rem;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+    .img-2 {
+        height: 400px;
+    }
+    .container-4 {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0;
+    }
+    .container-child-4 {
+        padding: 0 5%;
+    }
+    .grid-main {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2%;
+        margin: 0;
+    }
+    .head4-3 {
+        font-size: 1.2rem;
+    }
+    .head-4 {
+    font-size: 4rem;
+    line-height: 70px;
+    }
+    .p-4 {
+        font-size: 1.2rem;
+        padding: 3% 0;
+        letter-spacing: 0.5px;
+    }
+    .grid {
+        margin: 0;
+        padding: 15% 8%;
+    }
+    .btn-3 {
+        margin-top: 3%;
+    }
+    .container-5 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2%;
+    }
+    .head4-4 {
+        font-size: 1.2rem;
+    }
+    .head-6 {
+        font-size: 4rem;
+        line-height: 70px;
+        padding-top: 2%;
+    }
+    .p-5 {
+        margin: 3% 0 0 0;
+        padding: 3% 0;
+        font-size: 1.2rem;
+    }
+    .btn-4 {
+        margin: 0 3%;
+    }
+    .head5-1 {
+        font-size: 1.2rem;
+    }
+    .p-6 {
+        font-size: 1.2rem;
+    }
+    .container-6 {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 3% 5% 8% 5%;
+    }
+    .head-7 {
+        font-size: 3rem;
+    }
+    .container-child-6 p {
+        font-size: 1.2rem;
+    }
+    .container-7 {
+        margin: 0 5%;
+        top: -50px;
+        width: 80%;
+        padding: 5% 5%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .head-8 {
+        font-size: 3rem;
+    }
+    .container-child-7 {
+    width: 100%;
+    }
+    .btn-5 {
+    padding: 8% 20%;
+    margin: 0;
+    }
+    .main-container {
+        padding: 15% 5%;
+    }
+    .head4-5 {
+        font-size: 1.2rem;
+    }
+    .btn-6 {
+        margin: 5% 0 0 0;
+    }
+    .head-9 {
+        font-size: 4rem;
+        line-height: 70px;
+    }
+    .sub-container-7 {
+        padding: 5% 0;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .head-10 {
+        font-size: 2rem;
+        padding: 2% 0;
+    }
+    .sub-container-child-7 p, .sub-container-child-7 ul li {
+        font-size: 1.2rem;
+    }
+    .main-container-2 {
+        padding: 10% 5%;
+    }
+    .head4-6 {
+        font-size: 1.2rem;
+    }
+    .head-11 {
+        font-size: 4rem;
+    }
+    .p-9 {
+        font-size: 1.2rem;
+    }
+    .container-8 {
+        flex-direction: row;
+        margin: 0 5%;
+        gap: 1%;
+    }
+    .head5-2 {
+        font-size: 1.2rem;
+    }
+    .head-012 {
+        font-size: 3rem;
+    }
+    .container-child-8 p {
+        font-size: 1.1rem;
+    }
+    .btn-7 {
+        margin: 10% 0;
+        padding: 8% 12%;
+    }
+    .main-container-3 {
+        padding: 8% 5% 0 5%;
+    }
+    .head4-7 {
+        font-size: 1.2rem;
+    }
+    .head-12 {
+        font-size: 4rem;
+        line-height: 70px;
+    }
+    .container-9 {
+        display: flex;
+        gap: 3%;
+    }
+    .img-8 {
+        width: 50%;
+        transform: translateY(-30%);
+    }
+    .container-child-9 {
+        padding: 0 2% 2% 2%;
+    }
+    .p-15 {
+        padding-bottom: 2%;
+    }
+    .main-container-4 {
+        padding: 8% 5% 2% 5%;
+    }
+    .container-10 {
+        display: flex;
+        gap: 10%;
+    }
+    .hr-02 {
+        margin: 5% 0 1% 0;
+    }
+    .ul-03 .li-03 {
+        padding: 2% 0;
+    }
+    .p-16 {
+        padding: 2% 0;
+    }
+    input[type = email] {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        padding: 3% 5%;
+        font-size: 1rem;
+    }
+    .container-11 {
+        display: flex;
+        justify-content: space-between;
+    }
 
 }
